@@ -1,6 +1,6 @@
 {
   "name": "chatsure_comm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "确信SIP通信服务器SDK封装js版",
   "main": "index.js",
   "scripts": {
