@@ -139,7 +139,7 @@ const CWsLink = function()
         self.SetStatus(1, IDT.CAUSE_ZERO);
 
         //启动连接
-        self.Link = new WebSocket(self.strPeerUrl, '', {rejectUnauthorized:false});
+        self.Link = new WebSocket(self.strPeerUrl);
         self.Link.binaryType = "blob";
         CommLogger.info(self.ModuleName, "LinkCreate");
         self.Link.onopen = function(evt) {
