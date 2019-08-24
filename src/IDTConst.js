@@ -846,14 +846,12 @@ IDT.GetCauseStr = function(usCause)
 //      0:              成功
 //      -1:             失败
 //--------------------------------------------------------------------------------
-IDT.GetCloseStr = function(ucClose)
-{
-    switch (ucClose)
-    {
+IDT.GetCloseStr = function (ucClose) {
+    switch (ucClose) {
         case IDT.CLOSE_BYUSER:
-            return "用户发起关闭";
+            return "用户挂断通话";
         case IDT.CLOSE_BYPEER:
-            return "对端发起关闭";
+            return "对端挂断通话";
         case IDT.CLOSE_BYINNER:
             return "内部发起关闭";
         default:
