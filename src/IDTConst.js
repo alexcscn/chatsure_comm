@@ -677,7 +677,7 @@ IDT.GetCauseStr = function(usCause)
     switch (usCause)
     {
         case IDT.CAUSE_ZERO:
-            return "错误0";
+            return "正常";
         case IDT.CAUSE_UNASSIGNED_NUMBER:
             return "未分配号码";
         case IDT.CAUSE_NO_ROUTE_TO_DEST:
